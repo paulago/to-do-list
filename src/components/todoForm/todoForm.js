@@ -12,6 +12,7 @@ const TodoForm = (props) => {
   // Podemos acceder al valor de un evento con event.target.value.
   const handleChange = (event) => {
     setInput(event.target.value);
+    console.log(event.target.value);
   };
 
   // preventDefault evita que se ejecute la acción predeterminada en el envío de un formulario.
